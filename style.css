@@ -1,0 +1,213 @@
+:root{
+    /* --darker:#008970 ;
+    --brighter:#99eedf; */
+    --darker:#283E50 ;
+    --brighter:#668B83;
+    --header:#fff;
+    --skills:#888;
+  }
+  
+  
+  body {
+    /* background-color:var(--darker); */
+    background:  var(--darker);
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+      text-align: center;
+    }
+    h1{
+      font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight: lighter;
+      word-spacing: 0.2em;
+       letter-spacing: 0.3em;
+       
+       font-size: 35px;
+       background-color: var(--darker);
+       border-color: var(--brighter);
+       border-radius: 2px;
+       border-style: unset;
+       /* box-shadow: 0 10px 20px rgba(0,49,100,44.4), 0 6px 6px rgba(32,30,44,0.23); */
+      color :var(--header);
+    }
+    h1:hover{
+      color: var(--brighter);
+      
+    }
+    
+    .img {
+      width: 300px;
+      
+     top: 20px;
+     right: 300px;
+  
+     border-color: var(--brighter);
+     border-width: 3px;
+     border-style: solid;
+     border-radius: 10%;
+     box-shadow: 0 10px 20px rgba(0,49,100,44.4), 0 6px 6px rgba(32,30,44,0.23);
+     
+    }
+    h4{
+      font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-size: 40px;
+      color: var(--brighter);
+      letter-spacing:2px;
+      position: relative;
+      top: 20px;
+      
+    }
+    #para {
+      font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 25px;
+      letter-spacing: 0.4px;
+      /* vertical-align:super; */
+      font-weight: lighter;
+       margin: auto;
+       /* width: auto;  */
+    
+      color:var(--header);
+  
+    }
+    a{
+      color:var(--brighter);
+      font-style: unset;
+      text-decoration: unset;
+      font-weight: 300;
+    }
+    
+    #links{
+        
+        font-size:xx-large;
+        opacity: 1;
+        color: white;
+    }
+    #links a:hover{
+      color: var(--header);
+      box-shadow: 0 10px 20px rgba(0,49,100,44.4), 0 6px 6px rgba(32,30,44,0.23);
+    }
+    h3{
+      color : var(--brighter);
+    }
+    h2{
+      color:var(--header);
+      font-weight: lighter;
+      letter-spacing: 0.5px;
+    }
+    .text{
+      font-size: 20px;
+      font-family: cursive; 
+      text-align:right;
+      
+    }
+    .inform{
+        line-height: 30px;
+      padding: 3% 2% ;
+        background-color: var(--header);
+        width: 300px;
+        margin: auto;
+        margin-top: 15px;
+        color:var(--brighter);
+        border-radius: 2%;
+    }
+    .borders{
+      border-color: var(--brighter);
+      border-width: 4px;
+      border-style:unset;
+    }
+    #form_elements{
+      border-radius: 10%;
+    }
+    input[type=text]{
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 2px ;
+    border-color:var(--brighter);
+    border-radius: 5px;
+    
+    }
+    input[type=email]{
+      padding: 8px 15px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-width: 2px ;
+    border-color:var(--brighter);
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+      }
+     
+    #skills{
+      width:100%;
+      height: 220px;
+      border-style:unset;
+      border-color: var(--brighter);
+      margin: auto;
+      color: var(--brighter);
+      background-color: var(--header);
+  
+    }
+    #ss{
+      text-align: left;
+      color: var(--skills);
+      font-weight: 300;
+      
+    }
+    #ts{
+      text-align: left;
+      color: var(--skills);
+      font-weight:300;
+      position: relative;
+      left: 28%;
+      bottom: 138px;
+  
+    }
+    #ls{
+      text-align: left;
+      color: var(--skills);
+      font-weight:300;
+      position: relative;
+      left: 58%;
+      bottom: 256px;
+  
+    }
+  
+    
+  input[type="button" i]{
+   
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px var(--darker);
+    border-radius: 1%;
+    border-radius: 2%;
+    color:white;
+    
+    }
+    input[type=button]:hover{
+  color: var(--brighter);
+    }
+  #button{
+    border-radius: 5%;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 400;
+      letter-spacing: .5px;
+      margin: 0;
+      text-transform: uppercase;
+      
+  }
+  #inbtn{
+    background-color: var(--darker);  
+  }
+  
+  hr {
+    border-style:none;
+    border-top: dotted;
+    border-color: var(--brighter);
+    border-width: 10px;
+      width: 100%;
+  }
+  
