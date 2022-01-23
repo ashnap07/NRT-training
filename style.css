@@ -60,8 +60,8 @@
       font-size: 25px;
       letter-spacing: 0.4px;
       /* vertical-align:super; */
-      font-weight: lighter;
-       margin: auto;
+     
+      margin: auto;
        /* width: auto;  */
     
       color:var(--header);
@@ -144,34 +144,11 @@
       color: var(--brighter);
       background-color: var(--header);
       display: flex;
-  
-    }
-    #ss{
-      text-align: left;
-      color: var(--skills);
+       flex-direction: row;
       font-weight: 300;
-      display: flex;
-      flex-direction: row;
-    }
-    #ts{
-      text-align: left;
       color: var(--skills);
-      font-weight:300;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-  
-    }
-    #ls{
       text-align: left;
-      color: var(--skills);
-      font-weight:300;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-  
     }
-  
     
   input[type="button" i]{
     padding: 12px 20px;
@@ -234,7 +211,7 @@
   @keyframes fade1 {
     50% {
       
-      left: 50%;
+      left: 30%;
       opacity: 0;
     }
   }
@@ -261,7 +238,35 @@
   @keyframes fade2 {
     50% {
       
-      right: 50%;
+      right: 30%;
+      opacity: 0;
+    }
+  }
+  
+   
+  #ball3 {
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    position:relative;
+    right: 0%;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      var(--brighter),
+      var(--darker)
+    );
+    animation-name: fade2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes fade2 {
+    50% {
+      
+      right: 15%;
       opacity: 0;
     }
   }
